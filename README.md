@@ -1,2 +1,5 @@
-# Introduction_to_programming_FMI-2021/2022
- Materials for the "Introduction To Programming" course given by me @ Faculty of Mathematics and Informatics, Sofia University
+## Материали от семинарите и практикумите по "Увод в програмирането"
+#### зимен семестър 2021/2022, спец. Софтуерно инженерство
+
+- Тема 1: Увод. Примитивни типове данни. Преобразуване между типове. Оператори.
+- Тема 2: Условни конструкции - if, switch и тернарен оператор.
