@@ -1,4 +1,4 @@
 - ### [Уводна лекция - част 1](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2001/Introductory_lecture_part_1.pdf)
 - ### [Уводна лекция - част 2](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2001/Introductory_lecture_part_2.pdf)
 - ### [Задачи уводна лекция](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2001/Intro%20Tasks.txt)
-- ### [Примерни решения](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/tree/main/Sem.%2002/Solutions)
+- ### [Примерни решения](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/tree/main/Sem.%2001/Solutions)
