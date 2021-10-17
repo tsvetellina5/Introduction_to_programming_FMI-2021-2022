@@ -1,3 +1,4 @@
-## [Материали условни оператори](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2002/Conditional_Statements.pdf)
-## [Материали Бройни системи](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2002/Numeral_systems.pdf)
-## [Задачи условни оператори](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2002/Conditional_Statements_Tasks.md)
+- ### [Материали условни оператори](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2002/Conditional_Statements.pdf)
+- ### [Материали Бройни системи](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2002/Numeral_systems.pdf)
+- ### [Задачи условни оператори](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2002/Conditional_Statements_Tasks.md)
+- ### [Примерни решения](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/tree/main/Sem.%2002/Solutions)
