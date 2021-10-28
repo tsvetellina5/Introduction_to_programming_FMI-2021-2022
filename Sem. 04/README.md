@@ -1,2 +1,0 @@
-- ### [Задачи за упражнение](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2004/Loop_Tasks.txt)
-- ### [Примерни задачи от минали домашни](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2004/Example%20Homework%20Tasks.txt)
