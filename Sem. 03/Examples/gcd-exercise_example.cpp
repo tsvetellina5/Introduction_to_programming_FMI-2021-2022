@@ -11,7 +11,7 @@ int main()
 
 	while (gcd >= 1)
 	{
-		if (num1 % gcd == 0 && num2 % gcd == 0) //8 - yes
+		if (num1 % gcd == 0 && num2 % gcd == 0)
 		{
 			break;
 		}
