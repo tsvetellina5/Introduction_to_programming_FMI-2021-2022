@@ -87,9 +87,6 @@ int main()
 		std::cout << primeOfNumber << " + " << number - primeOfNumber << std::endl;
 	else
 		std::cout << "Error!" << std::endl;
-
-  
-
-
+	
 	return 0;
 }
