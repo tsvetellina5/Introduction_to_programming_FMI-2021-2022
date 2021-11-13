@@ -8,7 +8,6 @@ bool isPrime(int number)
 {
 	int size = sqrt(number);
 	                         
-
 	for (int i = 2; i <= size; i++)
 	{
 		if (number % i == 0)
