@@ -12,7 +12,7 @@ int main()
 		New_number /= 10;
 		Count_digits_of_number++;
 	}
-	if (Count_digits_of_number != 2 || Count_digits_of_number != 1)
+	if (Count_digits_of_number > 2)
 	{
 		const int Central_digit = Count_digits_of_number / 2;
 		for (int i = 1; i <= Count_digits_of_number; i++)
