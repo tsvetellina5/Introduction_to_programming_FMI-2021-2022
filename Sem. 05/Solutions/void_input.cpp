@@ -1,4 +1,4 @@
-#include <iostream
+#include <iostream>
 
 void input(int *arr, int &size)
 {
