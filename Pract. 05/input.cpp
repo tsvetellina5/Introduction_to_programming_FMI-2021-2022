@@ -1,6 +1,6 @@
 #include <iostream>
 
-void input(int *arr,const int size)
+void input(const int *arr,const int size)
 {
 	for (int i = 0; i < size; i++)
 		std::cin >> arr[i];
