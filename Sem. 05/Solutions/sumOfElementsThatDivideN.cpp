@@ -1,4 +1,4 @@
-int sumOfElementsThatDivideN(int *arr, int size,int N)
+int sumOfElementsThatDivideN(const int *arr, int size,int N)
 {
 	int sum = 0;
 	for (int i = 0; i < size; i++)

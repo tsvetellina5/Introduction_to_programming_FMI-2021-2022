@@ -1,4 +1,4 @@
-double maxOfArray(double *arr, int size)
+double maxOfArray(const double *arr, int size)
 {
 	double max = DBL_MIN_EXP;
 	for (int i = 0; i < size; i++)
