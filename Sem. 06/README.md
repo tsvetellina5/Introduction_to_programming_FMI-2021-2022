@@ -1,0 +1,2 @@
+- ### [Материали символни низове](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2006/String-Streams.pdf)
+- ### [Задачи символни низове](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2006/String_Tasks.txt)
