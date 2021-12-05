@@ -10,7 +10,7 @@ size_t myStrlen(char *str)
 символите преди него и по този начин извеждаме дължината на символния низ
 */
 {       
-	size_t len = 0;;
+	size_t len = 0;
 	while (str[len] != '\0') len++;
 	return len;
 }
