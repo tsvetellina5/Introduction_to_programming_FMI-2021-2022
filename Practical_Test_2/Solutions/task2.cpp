@@ -3,7 +3,7 @@
 const char INVALID_SYMBOL = '-';
 const int FIRST_LETTER_ASCII = 97;
 
-size_t myStrlen(char *str)
+size_t myStrlen(const char *str)
 /*
 В C++ всеки символен низ завършва със специален знак '\0' - терминираща нула,
 която показва къде е края на низа. Използвайки този знак, ние отброяваме с цикъл
@@ -23,7 +23,7 @@ bool isLower(char ch)
 	return ('a' <= ch && ch <= 'z');
 }
 
-bool existCode(char *s1, char *r1, char *&ptr)
+bool existCode(const char *s1,const char *r1, char *&ptr)
 {
 	/*
 	 на адреса &ptr ще върнем пойнрът към динамично заделения масив 
@@ -91,7 +91,7 @@ bool existCode(char *s1, char *r1, char *&ptr)
 	return true;
 }
 
-void encode(char s1[], char r1[], char s2[])
+void encode(const char *s1,const char *r1,const char *s2)
 {
 	size_t len = myStrlen(s2);
 	char *result = new char[len + 1];
@@ -109,7 +109,7 @@ void encode(char s1[], char r1[], char s2[])
 	char *ptr;
 	if (existCode(s1, r1, ptr))
 	{
-		for (size_t i = 0; i < myStrlen(s2); i++)
+		for (size_t i = 0; i < len; i++)
 		{
 			if (isLower(s2[i]))
 			{
