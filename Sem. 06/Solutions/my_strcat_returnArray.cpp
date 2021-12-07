@@ -1,5 +1,5 @@
 //way 1
-const char* my_strcat(char* dest, const char* source)
+const char* my_strcat(const char* dest, const char* source)
 {
 	size_t destLength = my_strlen(dest);
 	size_t sourceLength = my_strlen(source);
@@ -18,7 +18,7 @@ const char* my_strcat(char* dest, const char* source)
 
 //==================================================================
 //way 2
-const char* my_strcat(char* dest, const char* source)
+const char* my_strcat(const char* dest, const char* source)
 {
 	size_t destLength = my_strlen(dest);
 	size_t sourceLength = my_strlen(source);
