@@ -162,4 +162,3 @@ int contains(const vector<int> &nDigits,const vector<int> &kDigits, int digit, s
 
 	return index;
 }
-
