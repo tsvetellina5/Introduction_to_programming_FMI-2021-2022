@@ -11,7 +11,7 @@ void output(int number1, int number2, int number3)
 	std::cout << '(' << number1 << ',' << number2 << ',' << number3 << ")\n";
 }
 
-unsigned long countSums(long arr1[], size_t len1, long arr2[], size_t len2, long arr3[], size_t len3) {
+unsigned long countSums(const long *arr1, size_t len1,const long *arr2, size_t len2,const long *arr3, size_t len3) {
 	unsigned long counter = 0;
 	for (size_t i = 0; i < len1; i++)
 	{
