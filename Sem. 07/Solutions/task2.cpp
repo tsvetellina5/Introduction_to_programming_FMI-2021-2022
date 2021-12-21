@@ -30,7 +30,7 @@ int main()
 			cin >> matrix[i][y];
 	}
 
-    //Output
+        //Output
 	for (int i = 0; i < N; i++) 
 	{
 		for (int y = 0; y < M; y++)
@@ -39,7 +39,7 @@ int main()
 		cout << endl;
 	}
 
-    //Free memory
+        //Free memory
 	for (int i = 0; i < N; i++)
 	{
 		delete[] matrix[i];
