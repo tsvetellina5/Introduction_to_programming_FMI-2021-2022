@@ -24,6 +24,6 @@
   ef
 
   Изход:
-  4 2
-  abcdef
-  DCBA FE
+  4 2  
+  abcdef  
+  DCBA FE  
