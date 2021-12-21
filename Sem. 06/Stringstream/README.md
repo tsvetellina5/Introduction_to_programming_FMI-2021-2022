@@ -1,8 +1,11 @@
 ## Задачи
 
 1.Extract words from a sentence.  
+
 2.Extract numbers from a sentence.  
+
 3.Extract numbers from a mixed sentence.  
+
   *Input: FMI 1234 fmi 9876 fn101010*  
   *Output: 1234 9876 101010*  
 
@@ -15,7 +18,6 @@
 
 *Input: a a A SQL xx a xx a A a XX c*  
 *Output: a, sql, xx, c*  
-
 
 5.Read a text, extract its words (separated by spaces) find all short words (less than 5 characters).
   Print them alphabetically, in lowercase, separate by a single comma and a single space.
