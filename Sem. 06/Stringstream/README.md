@@ -13,14 +13,14 @@
 *Input: Java C# PHP PHP JAVA C java*  
 *Output: java, c#, c*  
 
-*Input: a a A SQL xx a xx a A a XX c*
-*Output: a, sql, xx, c*
+*Input: a a A SQL xx a xx a A a XX c*  
+*Output: a, sql, xx, c*  
 
 
 5.Read a text, extract its words (separated by spaces) find all short words (less than 5 characters).
   Print them alphabetically, in lowercase, separate by a single comma and a single space.
-- Use case-insensitive matching.
-- Remove duplicated words.
+- Use case-insensitive matching.  
+- Remove duplicated words.  
 
-*Input: In FMI you can study C++ java C# PHP and JavaScript. C++ is used*
-*Output: and, c#, c++, can, fmi, in, is, java, php, used, you*
+*Input: In FMI you can study C++ java C# PHP and JavaScript. C++ is used*  
+*Output: and, c#, c++, can, fmi, in, is, java, php, used, you*  
