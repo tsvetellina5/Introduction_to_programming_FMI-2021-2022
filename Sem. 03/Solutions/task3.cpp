@@ -3,37 +3,42 @@ using namespace std;
 
 int main()
 {
-	int Number; cin >> Number;
-	int New_number = Number;
-	int Multiplier = 1;
-	int Count_digits_of_number = 0;
-	while (New_number != 0)
+	int number, digits = 0;
+	cin >> number;
+
+	int temp = number; //copy of number
+	while (temp != 0)
 	{
-		New_number /= 10;
-		Count_digits_of_number++;
+		temp /= 10;
+		digits++;
 	}
-	if (Count_digits_of_number > 2)
+
+	int newNumber = 0;
+	if (digits > 2)
 	{
-		const int Central_digit = Count_digits_of_number / 2;
-		for (int i = 1; i <= Count_digits_of_number; i++)
+		int Multiplier = 1;
+		const int centralDigit = digits / 2 + 1;
+
+		for (int i = 1; i <= digits; i++)
 		{
-			if (Count_digits_of_number % 2 != 0 && i == Central_digit + 1)
+			if(digits % 2 == 0 && i == centralDigit - 1)
 			{
-				Number /= 10;
+				number /= 10;
 				continue;
 			}
-			if (Count_digits_of_number % 2 == 0 && i == Central_digit || i == Central_digit + 1) // Exceptions
+
+			if (i == centralDigit)
 			{
-				Number /= 10;
+				number /= 10;
 				continue;
 			}
-			i > 1 ? Multiplier *= 10 : Multiplier;
-			New_number += Number % 10 * Multiplier;
-			Number /= 10;
+
+			newNumber += number % 10 * Multiplier;
+			Multiplier *= 10;
+			number /= 10;
 		}
 	}
-	cout << New_number << " ";
-	cout << ++New_number << endl;
 
-	return 0;
+	cout << newNumber << ", ";
+	cout << ++newNumber << endl;
 }

@@ -1,18 +1,22 @@
 #include <iostream>
 using namespace std;
 
+const int lastDivisor = 1;
+
 int main()
 {
-	int num1; cin >> num1;
-	int num2; cin >> num2;
-	int Biggest_value;
-	num2 >= num1 ? Biggest_value = num2 : Biggest_value = num1;
-	for (int Divider = Biggest_value; Divider >= 1; Divider--)
+	int num1, num2;
+	cin >> num1 >> num2;
+
+	int smallerValue = num1;
+
+	if (num1 > num2)
+		smallerValue = num2;
+
+	for (int i = smallerValue; i > 1; i--)
 	{
-		if (num1 % Divider == 0 && num2 % Divider == 0)
-		{
-				cout << Divider << " ";
-		}
+		if (num1 % i == 0 && num2 % i == 0)
+			cout << i << " ";
 	}
-	return 0;
+	cout << lastDivisor;
 }

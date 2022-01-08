@@ -3,18 +3,17 @@ using namespace std;
 
 int main()
 {
-	int number, int temp = 1;
+	unsigned long long number, temp = 1;
 	bool isPowOfTwo = false;
 	cin >> number;
-	for (size_t i = 0; temp <= number; i++)
-	{
-		temp *= 2;
-		if (temp == number)
-		{
-			isPowOfTwo = true;
-		}
-	}
-	cout << boolalpha << isPowOfTwo << endl;
-	return 0;
-}
 
+	while (temp <= number)
+	{
+		if (temp == number)
+			isPowOfTwo = true;
+
+		temp *= 2;
+	}
+
+	cout << boolalpha << isPowOfTwo << endl;
+}

@@ -9,7 +9,7 @@ int main()
 	int number;
 	cin >> number;
 
-	if (number == 0)
+	if (number <= 0)
 		return -1;
 
 	while (number > 0)
