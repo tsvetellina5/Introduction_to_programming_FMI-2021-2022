@@ -21,6 +21,9 @@ int main()
 
 	for (int i = first; i <= second; i++)
 	{
+		if(i == 0)
+			continue;
+		
 		bool isPrime = true;
 
 		for (int j = 2; j < i; j++)
