@@ -35,5 +35,5 @@ int main()
 	int *arr = createArray(N);
 	initialize(arr, N);
 	print(arr, N);
-	free(arr);
+	Free(arr);
 }
