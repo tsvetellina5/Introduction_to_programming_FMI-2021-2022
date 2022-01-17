@@ -9,3 +9,5 @@
 - Тема 6: Символен низ. STL string. Stringstream. Filestream.
 - Тема 7: Референция и указател. Динамични масиви. STL vector.
 - Тема 8: Рекурсия.
+
+- ### [Консултация](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/tree/main/Consultation)
