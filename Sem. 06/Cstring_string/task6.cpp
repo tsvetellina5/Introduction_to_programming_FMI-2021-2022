@@ -54,4 +54,6 @@ int main()
 	print(arr3);
 	to_upper(arr3);
 	print(arr3);
+	
+	delete[] arr3;
 }
