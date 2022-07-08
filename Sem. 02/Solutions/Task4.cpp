@@ -2,27 +2,33 @@
 using namespace std;
 
 const double PI = 3.14;
-int main()
-{
-	char figure;
-	cin >> figure;
 
-	if (figure == 's')
-	{
+int main() {
+	char type;
+	cin >> type;
+	double S;
+	if (type == 's') {
 		double side;
 		cin >> side;
-		cout << side * side << endl;
+		S = side * side;
+		cout << S;
 	}
-	else if (figure == 'r')
-	{
-		double sideA, sideB;
-		cin >> sideA >> sideB;
-		cout << sideA * sideB << endl;
+	else if (type == 'r') {
+		double side1, side2;
+		cin >> side1 >> side2;
+		S = side1 * side2;
+		cout << S;
 	}
-	else if (figure == 'c')
-	{
-		double R;
-		cin >> R;
-		cout << PI * R * R << endl;
+	else if (type == 'c') {
+		double radius;
+		cin >> radius;
+		S = PI * radius * radius;
+		cout << S;
+	}
+	else if (type == 't') {
+		double side, height;
+		cin >> side >> height;
+		S = 0.5 * side * height;
+		cout << S;
 	}
 }
