@@ -21,21 +21,21 @@ int main()
 
 	for (int i = first; i <= second; i++)
 	{
-		if(i == 0)
+		if (i == 0)
 			continue;
-		
+
 		bool isPrime = true;
 
 		for (int j = 2; j < i; j++)
 		{
-			if (i % 2 == 0)
+			if (i % j == 0)
 			{
 				isPrime = false;
 				break;
 			}
 		}
 
-		if(isPrime)
+		if (isPrime)
 			cout << i << " ";
 	}
 

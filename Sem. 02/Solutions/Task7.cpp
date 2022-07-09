@@ -1,12 +1,20 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 
+/*
+Задача 1: Да се напише програма, която приема поток от числа. 
+Числата се събират, докато не срещне числото 0.
+          Тогава трябва да се отпечата акумулираният 
+		  резултат и да програмта да приключи.
+
+Вход: 1 2 3 4 5 6 0
+Изход: 21
+*/
+
 int main() {
-	int r, x, y;
-	cin >> r >> x >> y;
-	int dist = sqrt(x * x + y * y);
-	if (r == dist) cout << "on the circle";
-	else if (r < dist) cout << "out the circle";
-	else if (r > dist) cout << "in the circle";
-	return 0;
+	int num, sum;
+	while (num != 0) {
+		cin >> num;
+		sum += num;
+	}
 }
