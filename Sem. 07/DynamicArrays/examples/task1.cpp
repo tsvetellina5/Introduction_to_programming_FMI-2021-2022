@@ -18,4 +18,6 @@ int main()
 	{
 		cin >> arr[i];
 	}
+	
+	delete[] arr; //don`t we need it?
 }
