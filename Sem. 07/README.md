@@ -2,4 +2,4 @@
 - ### [Memory leak проверка - код](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/blob/main/Sem.%2007/examples/memoryLeak.cpp)
 - ### [Примери динамични масиви](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/tree/main/Sem.%2007/DynamicArrays/examples)
 - ### [Задачи динамични масиви](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/tree/main/Sem.%2007/DynamicArrays)
-- ### [Задачи структори](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/tree/main/Sem.%2007/Struct)
+- ### [Задачи структури](https://github.com/Justsvetoslavov/Introduction_to_programming_FMI-2021-2022/tree/main/Sem.%2007/Struct)
